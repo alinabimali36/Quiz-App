@@ -50,3 +50,15 @@ const quizData = [
         answer: "style"
     }
 ];
+
+const quizCard = document.getElementById("quiz-card");
+const resultsCard = document.getElementById("results-card");
+const questionEl = document.getElementById("question");
+const optionsEl = document.getElementById("options");
+const nextBtn = document.getElementById("next-btn");
+const restartBtn = document.getElementById("restart-btn");
+const progressEl = document.getElementById("progress");
+const timerText = document.getElementById("timer-text");
+const questionCounterEl = document.getElementById("question-counter");
+const finalScoreEl = document.getElementById("final-score");
+const totalQuestionsEl = document.getElementById("total-questions");
